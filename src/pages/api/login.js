@@ -8,7 +8,7 @@ export default async function (req, res) {
     console.log(db);
 
     const { email, password } = req.body;
-    console.log(req.body);a
+    console.log(req.body);
 
     // Create a new People instance using the imported People model
     const newUser = new People({ email, password });
